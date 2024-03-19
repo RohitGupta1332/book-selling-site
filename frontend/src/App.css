@@ -1,0 +1,123 @@
+.categories-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-between;
+}
+.card-container img{
+    width: 70%;
+    height: 80%;
+    padding: 2px;
+    margin: 2px;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    min-width: 100px;
+    margin: 0.25rem;
+    box-shadow: var(--bs-box-shadow);
+    --bs-bg-opacity: 1;
+    padding: 1rem;
+    background-color: rgba(var(--bs-tertiary-bg-rgb), var(--bs-bg-opacity)) !important;
+    border-radius: 0.25rem;
+}
+.card-container:hover{
+    transform: scale(1.08);
+}
+h1{
+    font-size: clamp(17px, 1.8vw, 32px);
+    font-weight:normal;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h5, h4{
+    font-size: clamp(12px, 1.5vw, 20px);
+    padding: 3px;
+    font-weight: normal;
+}
+h6{
+    font-size: clamp(10px, 1vw, 18px);
+    padding: 3px;
+    font-weight:lighter;
+
+}
+.sidebar{
+    width: 20%;
+    border: 1px solid grey;
+}
+.books{
+    width: 80%;
+}
+a{
+    text-decoration: none !important;
+    color: black;
+}
+.book-items {
+    flex: 0 0 auto;
+    text-align: center;
+    width: 45%;
+    max-width: 200px;
+    margin: 10px;
+}
+.book-items:hover{
+    transform: scale(1.08);
+}
+
+.books-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.book-items img{
+    width: 40%;
+    height: 40%;
+    max-width: 200px;
+    margin: 10px;
+}
+.cart-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.item-details {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.item-details img {
+    width: 60px; /* Adjust the width as needed */
+    margin-right: 10px;
+}
+
+.item-controls {
+    display: flex;
+    align-items: center;
+}
+
+.item-controls input {
+    width: 30px; /* Adjust the width as needed */
+}
+
+.item-price {
+    margin-left: 10px;
+}
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 0;
+    margin-left: 10px;
+}
